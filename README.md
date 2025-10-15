@@ -50,6 +50,7 @@ Fetch movies, TV shows, details, ratings, and trailers.
 
 ## 📂 Folder Structure
 
+```bash
 MovieWeb/
 │
 ├── public/              # Static assets (logo, images)
@@ -71,5 +72,4 @@ MovieWeb/
 │
 ├── package.json
 └── README.md
-
----
+```
