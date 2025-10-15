@@ -17,8 +17,8 @@ const TVshow = () => {
     const TVshows = async () => {
       setLoading(true);
       try {
-        const top10 = await fetchTVshow();
-        setTV(top10);
+        const data = await fetchTVshow();
+        setTV(data);
       } catch (error) {
         console.error("Error fetching TV shows:", error);
       }
