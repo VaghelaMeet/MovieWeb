@@ -52,21 +52,22 @@ Fetch movies, TV shows, details, ratings, and trailers.
 
 MovieWeb/
 │
-├── public/ # Static assets (logo, images)
+├── public/              # Static assets (logo, images)
+│
 ├── src/
-│ ├── Api/
-│ │ └── Api.js # Functions to fetch movies & TV shows
-│ │
-│ ├── Components/
-│ │ ├── Navbar.jsx
-│ │ ├── Movies.jsx
-│ │ ├── MovieDetail.jsx
-│ │ ├── TVshow.jsx
-│ │ ├── TVshowDetail.jsx
-│ │ └── Footer.jsx
-│ │
-│ ├── App.jsx # Main app
-│ └── main.jsx # Entry point
+│   ├── Api/
+│   │   └── Api.js       # Functions to fetch movies & TV shows
+│   │
+│   ├── Components/
+│   │   ├── Navbar.jsx
+│   │   ├── Movies.jsx
+│   │   ├── MovieDetail.jsx
+│   │   ├── TVshow.jsx
+│   │   ├── TVshowDetail.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── App.jsx           # Main app
+│   └── main.jsx          # Entry point
 │
 ├── package.json
 └── README.md
